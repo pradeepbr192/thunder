@@ -36,6 +36,4 @@ title: Selenium Grid
 ##### 7. " The node is registered to the hub and ready to use" message should be displayed.
 
 {% highlight css %}
-* Do not remove this line (it will not be displayed) 
-{:toc}
-{% endhighlight %}
+
