@@ -17,7 +17,7 @@ permalink: /contact/
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="Twitter">Twitter:</label>
-                <input type="message" placeholder="https://twitter.com/pradeep_br" id="message" class="contact-input" name="message" tabindex="2"/>
+                <input type="message" placeholder="https://twitter.com/pradeep_br" id="message" class="contact-input" name="message" tabindex="3"/>
                 
             </li>
             
