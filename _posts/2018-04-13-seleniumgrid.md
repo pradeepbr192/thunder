@@ -22,58 +22,18 @@ title: Selenium Grid
 
 
 
-## Paragraphs
+### Configuring Selenium Grid:
+##### 1. Download Selenium Standalone Server from Selenium HQ.
+##### 2.Move it to a folder of your choice (D:\Pradeep\Selenium drivers in my case).
+##### 3. Launch command prompt and run the java -jar selenium-server-standalone-3.11.0.jar    command."Selenium Grid hub is up and running" message should be displayed.
 
-These are sample paragraphs showing *italics*, **bold** and ``code`` text style. Here is an unordered  list 
+##### 4. Launch the browser and go to the URL mentioned in the command prompt.If it is being    launched in local machine, then go to http://localhost:portnumber.
 
-* Item 1
-* Item 2
-* Item 3
+##### 5.If it starts successfully,"Whoops! The URL specified routes to this help page." message   would be displayed in the browser.
 
-and an ordered list
+##### 6. To register the Hub, open a new terminal and give the command - java -Dwebdriver.chrome.driver="D:\Pradeep\Selenium drivers\chromedriver.exe" -jar selenium-server-standalone-3.11.0.jar -role node -hub http://localhost:4444/grid/register.
 
-1. Item 1
-2. Item 2
-3. Item 3
-
->A blockquote would look like this.
-
-> another one 
->
-> with multiple lines
-
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-**Code:** Let's keep it to its length and let it not take the whole width.
-{% highlight html %}
-
-<div class="nav">
-    <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Project</li>
-    </ul>
-</div>
-
-
-{% endhighlight %}
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-
-This is a simple markdown table
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
-Use below code to show **Table of Contents** on a page
+##### 7. " The node is registered to the hub and ready to use" message should be displayed.
 
 {% highlight css %}
 * Do not remove this line (it will not be displayed) 
