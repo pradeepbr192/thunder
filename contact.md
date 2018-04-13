@@ -9,15 +9,15 @@ permalink: /contact/
         <ul class="contact-ul">
             <li class="contact-li">
                 <label class="contact-label" for="name">Name:</label>
-                <input type="text" placeholder="Your name" id="name" class="contact-input" name="name" tabindex="1"/>
+                <input type="text" placeholder="Pradeep Bhat" id="name" class="contact-input" name="name" tabindex="1"/>
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="email">Email:</label>
-                <input type="email" placeholder="Your email" id="email" class="contact-input" name="email" tabindex="2"/>
+                <input type="email" placeholder="pradeepbr192@gmail.com" id="email" class="contact-input" name="email" tabindex="2"/>
             </li>
             <li class="contact-li">
-                <label class="contact-label" for="message">Message:</label>
-                <textarea class="contact-textarea" placeholder="Your message" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
+                <label class="contact-label" for="message">Twitter:</label>
+                <textarea class="contact-textarea" placeholder="https://twitter.com/pradeep_br" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
             </li>
             
         </ul>
@@ -25,12 +25,12 @@ permalink: /contact/
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
         
 </form>
-
+---
 This form is setup using [SimpleForm](https://getsimpleform.com){: target="_blank" rel="nofollow"}. You can get your own API token or use other forms deleting this whole form. But remember, php forms will not work on Jekyll.
 
 
 The styles for the form is included in this page. I haven't included it in the main age because it has at least 25 lines of css and it is used only on this page. So including it in main css file doesn't make sense.
-
+---
 
 <style>
 .contact-li {
