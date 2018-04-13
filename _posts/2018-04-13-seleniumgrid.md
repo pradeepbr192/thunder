@@ -26,11 +26,8 @@ title: Selenium Grid
 ##### 1. Download Selenium Standalone Server from Selenium HQ.
 ##### 2.Move it to a folder of your choice (D:\Pradeep\Selenium drivers in my case).
 ##### 3. Launch command prompt and run the java -jar selenium-server-standalone-3.11.0.jar    command."Selenium Grid hub is up and running" message should be displayed.
-
 ##### 4. Launch the browser and go to the URL mentioned in the command prompt.If it is being    launched in local machine, then go to http://localhost:portnumber.
-
 ##### 5.If it starts successfully,"Whoops! The URL specified routes to this help page." message   would be displayed in the browser.
-
 ##### 6. To register the Hub, open a new terminal and give the command - java -Dwebdriver.chrome.driver="D:\Pradeep\Selenium drivers\chromedriver.exe" -jar selenium-server-standalone-3.11.0.jar -role node -hub http://localhost:4444/grid/register.
 ##### 7. " The node is registered to the hub and ready to use" message should be displayed.
 {% highlight css %}
