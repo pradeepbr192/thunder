@@ -16,8 +16,9 @@ permalink: /contact/
                 <input type="email" placeholder="pradeepbr192@gmail.com" id="email" class="contact-input" name="email" tabindex="2"/>
             </li>
             <li class="contact-li">
-                <label class="contact-label" for="message">Twitter:</label>
-                <textarea class="contact-textarea" placeholder="https://twitter.com/pradeep_br" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
+                <label class="contact-label" for="Twitter">Twitter:</label>
+                <input type="message" placeholder="https://twitter.com/pradeep_br" id="message" class="contact-input" name="message" tabindex="2"/>
+                
             </li>
             
         </ul>
@@ -25,13 +26,6 @@ permalink: /contact/
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
         
 </form>
----
-This form is setup using [SimpleForm](https://getsimpleform.com){: target="_blank" rel="nofollow"}. You can get your own API token or use other forms deleting this whole form. But remember, php forms will not work on Jekyll.
-
-
-The styles for the form is included in this page. I haven't included it in the main age because it has at least 25 lines of css and it is used only on this page. So including it in main css file doesn't make sense.
----
-
 <style>
 .contact-li {
     list-style: none;
