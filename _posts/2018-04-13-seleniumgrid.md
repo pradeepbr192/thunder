@@ -35,6 +35,5 @@ title: Selenium Grid
 
 ##### 7. " The node is registered to the hub and ready to use" message should be displayed.
 
-({{site.baseurl}}/images/ss.png)
 {% highlight css %}
 
