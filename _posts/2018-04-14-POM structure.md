@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Project Object Model
 
@@ -16,9 +16,4 @@ published: false
 
 ## TestBase.java
 
-**Testbase.java** file will be the base class for all the other java class files.This class will contain the details of the configuration file, code related to window maximization and code related to launching the URL.
-
-**Loginpage.java** contains object repositiries, initilizing page objects(Pagefactory.initElements(driver,this)) and validations to be done after login (driver.getTitle,logo is displayed), Login method with user name and password to login which return Homepage class object.
-
-![Loginpage.png]({{site.baseurl}}/images/Loginpage.png)
-
+Testbase.java file will be the base class for all the other java class files.This class will contain the details of the configuration file, code related to window maximization and code related to launching the URL.
