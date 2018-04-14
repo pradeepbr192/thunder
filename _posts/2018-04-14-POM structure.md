@@ -21,3 +21,5 @@ Testbase.java file will be the base class for all the other java class files.Thi
 ## Loginpage.java
 
 Loginpage.java class contains **Object repositories, Page object initialization**(Pagefactory.initelements(driver,this)),**Actions**(validations like title name check, CRM image check), **login page**(with user name and password details that return Homepage class object.
+
+![Loginpage.png]({{site.baseurl}}/images/Loginpage.png)
