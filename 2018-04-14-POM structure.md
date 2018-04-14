@@ -7,4 +7,4 @@
 
 4. For reports, folder is created automatically.
 
-5. Define common properties within the config properties by creating a new file. Specifiy the URL,username and password and Browser details.
+5. Define common properties within the config package by creating a new file. Specifiy the URL,username and password and Browser details.
