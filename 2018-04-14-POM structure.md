@@ -8,3 +8,5 @@
 4. For reports, folder is created automatically.
 
 5. Define common properties within the config package by creating a new file. Specifiy the URL,username and password and Browser details.
+
+6. Inside the "Page" package, create all the pages.(Example: Login page,signup page,homepage)
