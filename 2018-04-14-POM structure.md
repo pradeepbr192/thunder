@@ -10,3 +10,5 @@
 5. Define common properties within the config package by creating a new file. Specifiy the URL,username and password and Browser details.
 
 6. Inside the "Page" package, create all the pages.(Example: Login page,signup page,homepage)
+
+**Important: Each webpage should have a separate page class.**
