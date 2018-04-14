@@ -17,3 +17,7 @@ published: true
 ## TestBase.java
 
 Testbase.java file will be the base class for all the other java class files.This class will contain the details of the configuration file, code related to window maximization and code related to launching the URL.
+
+## Loginpage.java
+
+Loginpage.java class contains Object repositories, Page object initialization(Pagefactory.initelements(driver,this)),Actions(validations like title name check, CRM image check), login page(with user name and password details that return Homepage class object.
