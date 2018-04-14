@@ -27,4 +27,8 @@ Loginpage.java class contains **Object repositories, Page object initialization*
 
 ![Loginpage.png]({{site.baseurl}}/images/Loginpage.png)
 
+## Loginpagetest.java
 
+This is a test case which contains test steps and which calls initialization method along with the super() which refers to base class constructor.
+
+![loginpagetest]({{site.baseurl}}/images/Loginpagetest.png)
