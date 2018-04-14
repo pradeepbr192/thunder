@@ -11,6 +11,8 @@
 
 6. Inside the "Page" package, create all the pages.(Example: Login page,signup page,homepage)
 
-##  TestBase.java
+##
+
+TestBase.java
 
 Testbase.java file will be the base class for all the other java class files.This class will contain the details of the configuration file, code related to window maximization and code related to launching the URL.
