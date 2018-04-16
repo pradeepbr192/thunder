@@ -17,7 +17,7 @@ permalink: /:title/
 
 analytics: UA-83979019-1 
 disqus-shortname: webjeda-demo
-
+future: true
 # Color schemes
 color-1: '#3B97D3'
 color-2: '#26B99A'
@@ -46,7 +46,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
+  published: true
   
 prose:
   rooturl: ''
