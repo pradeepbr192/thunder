@@ -1,5 +1,6 @@
 ---
 published: true
+future: true
 ---
 ### Test NG features/options
 
