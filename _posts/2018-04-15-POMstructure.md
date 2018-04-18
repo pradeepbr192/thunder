@@ -1,8 +1,7 @@
 ---
 published: true
----
----
 layout: post
+Future: true
 ---
 ## Project Object Model
 
