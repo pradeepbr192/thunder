@@ -30,5 +30,4 @@ title: Selenium Grid
 ##### 5.If it starts successfully,"Whoops! The URL specified routes to this help page." message   would be displayed in the browser.
 ##### 6. To register the Hub, open a new terminal and give the command - java -Dwebdriver.chrome.driver="D:\Pradeep\Selenium drivers\chromedriver.exe" -jar selenium-server-standalone-3.11.0.jar -role node -hub http://localhost:4444/grid/register.
 ##### 7. " The node is registered to the hub and ready to use" message should be displayed.
-{% highlight css %}
 
