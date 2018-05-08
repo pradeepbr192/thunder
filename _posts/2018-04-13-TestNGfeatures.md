@@ -21,6 +21,11 @@ System.out.println("back");
 
 }
 
+## Groups tag
+
+Groups tag is used to group the test cases under one set.
+
+@Test( groups = "bus")
 
 ## invocation count
 
