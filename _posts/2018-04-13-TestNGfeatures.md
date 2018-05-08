@@ -19,6 +19,14 @@ future: true
 </test>
 </suite>
   
+  In the test case, parameter tag should be given along with @Testcase tag:
+  
+  @Test
+  @Parameters("url", "emailid")
+  Public void Loginpage(String url, String emailid){
+  }
+
+
 
 ## dependsOnMethods
 
