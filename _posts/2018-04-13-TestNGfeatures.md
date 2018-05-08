@@ -6,6 +6,8 @@ future: true
 
 ## @Parameters in TestNG
 
+Username,password,urls can be defined either in config.properties or within the TestNG file
+
 1. Create testNG.xml file
 
 ### Format:
