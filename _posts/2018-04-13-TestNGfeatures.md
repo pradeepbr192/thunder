@@ -28,7 +28,13 @@ Username,password,urls can be defined either in config.properties or within the 
   Public void Loginpage(String url, String emailid){
   }
 
-
+### Data driven approach can be done using the below resources:
+   1. Excel sheet - Test data
+   2. config.properties file - environment variables,Object repos, test data
+   3. TestNG.xml - environment variables.
+   4. XML file
+   5.JSON files
+   6. DB
 
 ## dependsOnMethods
 
