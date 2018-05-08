@@ -4,6 +4,22 @@ future: true
 ---
 ### Test NG features/options
 
+## @Parameters in TestNG
+
+1. Create testNG.xml file
+
+# Format:
+<suite name =  "Test suite">
+<test name = "test cases">
+<parameter name="url" value="https://freecrm.com">
+<parameter name="email" value="pradepbhat@gmail.com">
+<classes>
+  <class name ="path.classname">
+</classes> 
+</test>
+</suite>
+  
+
 ## dependsOnMethods
 
 @Test
